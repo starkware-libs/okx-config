@@ -33,6 +33,14 @@ synthetic_assets_info:
     - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
     resolution: '0x989680'
     risk_factor: '429496730'
+  '0x42544330322d313000000000000000':
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x425443303255534400000000000000004d616b6572'
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x2540be400'
+    risk_factor: '214748365'
 timestamp_validation_config:
   funding_validity_period: 604800
   price_validity_period: 31536000
