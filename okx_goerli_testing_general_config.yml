@@ -203,4 +203,4 @@ synthetic_assets_info:
     risk_factor: '322122548' #roundingup 0.075
 timestamp_validation_config:
   funding_validity_period: 604800
-  price_validity_period: 3153600
+  price_validity_period: 31536000
