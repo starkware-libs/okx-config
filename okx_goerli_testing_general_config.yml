@@ -12,35 +12,195 @@ synthetic_assets_info:
   '0x4254432d3130000000000000000000':
     oracle_price_quorum: '0x1'
     oracle_price_signed_asset_ids:
-    - '0x425443555344000000000000000000004d616b6572'
+      - '0x425443555344000000000000000000004d616b6572'
     oracle_price_signers:
-    - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
     resolution: '0x2540be400'
     risk_factor: '214748365'
   '0x4554482d3800000000000000000000':
     oracle_price_quorum: '0x1'
     oracle_price_signed_asset_ids:
-    - '0x455448555344000000000000000000004d616b6572'
+      - '0x455448555344000000000000000000004d616b6572'
     oracle_price_signers:
-    - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
     resolution: '0x5f5e100'
     risk_factor: '322122548'
   '0x4c494e4b2d37000000000000000000':
     oracle_price_quorum: '0x1'
     oracle_price_signed_asset_ids:
-    - '0x4c494e4b5553440000000000000000004d616b6572'
+      - '0x4c494e4b5553440000000000000000004d616b6572'
     oracle_price_signers:
-    - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
     resolution: '0x989680'
     risk_factor: '429496730'
-  '0x42544330322d313000000000000000':
+  '0x42544330322d313000000000000000': #BTC02-10
     oracle_price_quorum: '0x1'
     oracle_price_signed_asset_ids:
-      - '0x425443303255534400000000000000004d616b6572'
+      - '0x4254433032555344434f4b58000000004d616b6572'  #BTC02USDCOKX Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x42544330332d313000000000000000': #BTC03-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4254433033555344434f4b58000000004d616b6572'  #BTC03USDCOKX Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x42544330342d313000000000000000': #BTC04-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4254433034555344434f4b58000000004d616b6572'  #BTC04USDCOKX Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x42544330352d313000000000000000': #BTC05-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4254433035555344434f4b58000000004d616b6572'  #BTC05USDCOKX Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x42544330362d313000000000000000': #BTC06-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4254433036555344434f4b58000000004d616b6572'  #BTC06USDCOKX Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x42544330372d313000000000000000': #BTC07-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4254433037555344434f4b58000000004d616b6572'  #BTC07USDCOKX Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x42544330382d313000000000000000': #BTC08-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4254433038555344434f4b58000000004d616b6572'  #BTC08USDCOKX Maker
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x45544830322d380000000000000000': #ETH02-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4554483032555344434f4b58000000004d616b6572'  #ETH02USDCOKX Maker
     oracle_price_signers:
       - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
-    resolution: '0x2540be400'
-    risk_factor: '214748365'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x45544830332d380000000000000000': #ETH03-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4554483033555344434f4b58000000004d616b6572'  #ETH03USDCOKX Maker
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x45544830342d380000000000000000': #ETH04-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4554483034555344434f4b58000000004d616b6572'  #ETH04USDCOKX Maker
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x45544830352d380000000000000000': #ETH05-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4554483035555344434f4b58000000004d616b6572'  #ETH05USDCOKX Maker
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x45544830362d380000000000000000': #ETH06-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4554483036555344434f4b58000000004d616b6572'  #ETH06USDCOKX Maker
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x45544830372d380000000000000000': #ETH07-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4554483037555344434f4b58000000004d616b6572'  #ETH07USDCOKX Maker
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x45544830382d380000000000000000': #ETH08-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4554483038555344434f4b58000000004d616b6572'  #ETH08USDCOKX Maker
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30322d3700000000000000': #LINK02-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b3032555344434f4b580000004d616b6572'  #LINK02USDCOKX Maker
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30332d3700000000000000': #LINK03-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b3033555344434f4b580000004d616b6572'  #LINK03USDCOKX Maker
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30342d3700000000000000': #LINK04-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b3034555344434f4b580000004d616b6572'  #LINK04USDCOKX Maker
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30352d3700000000000000': #LINK05-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b3035555344434f4b580000004d616b6572'  #LINK05USDCOKX Maker
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30362d3700000000000000': #LINK06-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b3036555344434f4b580000004d616b6572'  #LINK06USDCOKX Maker
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30372d3700000000000000': #LINK07-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b3037555344434f4b580000004d616b6572'  #LINK07USDCOKX Maker
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30382d3700000000000000': #LINK08-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x4c494e4b3038555344434f4b580000004d616b6572'  #LINK08USDCOKX Maker
+    oracle_price_signers:
+      - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
 timestamp_validation_config:
   funding_validity_period: 604800
-  price_validity_period: 31536000
+  price_validity_period: 3153600
