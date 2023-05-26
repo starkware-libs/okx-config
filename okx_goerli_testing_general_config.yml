@@ -33,6 +33,46 @@ synthetic_assets_info:
     - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
     resolution: '0x989680'
     risk_factor: '429496730'
+  '0x42544330312d313000000000000000': #BTC01-10
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+    - '0x4254433031555344434f4b58000000004d616b6572'  #BTC01USDCOKX Maker
+    oracle_price_signers:
+    - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x2540be400'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x45544830312d380000000000000000': #ETH01-8
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+    - '0x4554483031555344434f4b58000000004d616b6572'  #ETH01USDCOKX Maker
+    oracle_price_signers:
+    - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x5f5e100'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x4c494e4b30312d3700000000000000': #LINK01-7
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+    - '0x4c494e4b3031555344434f4b580000004d616b6572'  #LINK01USDCOKX Maker
+    oracle_price_signers:
+    - '0x636b2c4f887da6f50dee35f21d0582b4944fe8dd1e83f61e63dabeff3e4846f'
+    resolution: '0x989680'
+    risk_factor: '322122548' #roundingup 0.075
+  '0x534f4c30312d300000000000000000': #SOL01-0
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+    - '0x534f4c3031555344434f4b58000000004d616b6572'  #SOL01USDCOKX Maker
+    oracle_price_signers:
+    - '0x03593b2a5a5075790e00601964bd0cb59bc07da7679c541da5716c1d0ac401aa'
+    resolution: '0x1'
+    risk_factor: '214748365' #roundingup 0.05
+  '0x4156415830312d3000000000000000': #AVAX01-0
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+    - '0x415641583031555344434f4b580000004d616b6572'  #AVAX01USDCOKX Maker
+    oracle_price_signers:
+    - '0x017684437f583c7fab49e4fabbc7ccf7fa1510008afd6e56f7e1fccd142c161e'
+    resolution: '0x1'
+    risk_factor: '214748365' #roundingup 0.05
 timestamp_validation_config:
   funding_validity_period: 604800
   price_validity_period: 31536000
