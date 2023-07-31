@@ -1,0 +1,50 @@
+collateral_asset_info:
+  asset_id: '0xa21edc9d9997b1b1956f542fe95922518a9e28ace11b7b2972a1974bf5971f'
+  resolution: '0xf4240'
+data_availability_mode: 0
+fee_position_info:
+  position_id: '6'
+  public_key: '0x0231d6bf134c6b054a60c6098dc997fddf6eb4f300a4235f08b11a5e5a123e2f'
+max_funding_rate: '5966'
+orders_tree_height: 64
+positions_tree_height: 64
+synthetic_assets_info:
+  '0x4254432d3300000000000000000000':
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x425443555344434f4b580000000000005374437277'
+      - '0x425443555344434f4b5800000000000053746f726b'
+      - '0x425443555344434f4b580000000000004465787472'
+      - '0x425443555344434f4b5800000000000053744b6169'
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225'
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e'
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0'
+    resolution: '0x3e8'
+    risk_factor: '214748365'
+  '0x544553542d33000000000000000000':
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x54455354555344434f4b5800000000004d616b6572'
+    oracle_price_signers:
+      - '0x60de32cdaf78bdab488d87f7720d5f3898f16d1461203621731f80fa85c35ff'
+    resolution: '0x3e8'
+    risk_factor: '214748365'
+  '0x4554482d3200000000000000000000':
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x455448555344434f4b580000000000005374437277'
+      - '0x455448555344434f4b5800000000000053746f726b'
+      - '0x455448555344434f4b580000000000004465787472'
+      - '0x455448555344434f4b5800000000000053744b6169'
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225'
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e'
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0'
+    resolution: '0x64'
+    risk_factor: '214748365'
+timestamp_validation_config:
+  funding_validity_period: 604800
+  price_validity_period: 31536000
