@@ -45,6 +45,20 @@ synthetic_assets_info:
       - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0'
     resolution: '0x64'
     risk_factor: '214748365'
+  '0x534f4c2d3000000000000000000000': #SOL-0
+    oracle_price_quorum: '0x3'
+    oracle_price_signed_asset_ids:
+      - '0x534f4c555344434f4b580000000000005374437277' #SOLUSDCOKX StCrw
+      - '0x534f4c555344434f4b5800000000000053746f726b' #SOLUSDCOKX Stork
+      - '0x534f4c555344434f4b580000000000004465787472' #SOLUSDCOKX Dextr
+      - '0x534f4c555344434f4b5800000000000053744b6169' #SOLUSDCOKX StKai
+    oracle_price_signers:
+      - '0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e6225'
+      - '0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4'
+      - '0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e'
+      - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0'
+    resolution: '0x1' # 10^0
+    risk_factor: '214748365' # roundingup 0.05
 timestamp_validation_config:
   funding_validity_period: 604800
   price_validity_period: 31536000
