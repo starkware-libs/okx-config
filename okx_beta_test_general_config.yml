@@ -59,6 +59,14 @@ synthetic_assets_info:
       - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0'
     resolution: '0x1' # 10^0
     risk_factor: '214748365' # roundingup 0.05
+  '0x544553543200000000000000000000': #TEST2
+    oracle_price_quorum: '0x1'
+    oracle_price_signed_asset_ids:
+      - '0x5445535432555344434f4b58000000004d616b6572' #TEST2USDCOKX Maker
+    oracle_price_signers:
+      - '0x793e9f602abba40f00411d6320287fb4d180c06c99f768d3cf91b613f3c8810'
+    resolution: '0x3e8'
+    risk_factor: '214748365'
 timestamp_validation_config:
   funding_validity_period: 604800
   price_validity_period: 31536000
