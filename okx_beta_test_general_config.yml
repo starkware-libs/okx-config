@@ -59,7 +59,7 @@ synthetic_assets_info:
       - '0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564ae422bf68a2c0'
     resolution: '0x1' # 10^0
     risk_factor: '214748365' # roundingup 0.05
-  '0x544553543200000000000000000000': #TEST2
+  '0x54455354322d300000000000000000': #TEST2-0
     oracle_price_quorum: '0x1'
     oracle_price_signed_asset_ids:
       - '0x5445535432555344434f4b58000000004d616b6572' #TEST2USDCOKX Maker
